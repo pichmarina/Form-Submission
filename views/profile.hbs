@@ -1,0 +1,20 @@
+<div class="flex justify-center items-center min-h-screen">
+  <div class="bg-white p-8 rounded-lg shadow-md w-full max-w-md text-center">
+    <h2 class="text-2xl font-bold mb-4">Welcome, {{name}}! 🎉</h2>
+
+    <div class="mb-4">
+      <img src="{{imagePath}}" alt="Profile Picture"
+        class="w-40 h-40 mx-auto rounded-full object-cover border-4 border-blue-400">
+    </div>
+
+    <div class="text-left space-y-2">
+      <p><strong>Email:</strong> {{email}}</p>
+      <p><strong>Course Track:</strong> {{course}}</p>
+    </div>
+
+    <a href="/register"
+      class="inline-block mt-6 bg-gray-500 text-white px-4 py-2 rounded hover:bg-gray-600">
+      Register Another User
+    </a>
+  </div>
+</div>
